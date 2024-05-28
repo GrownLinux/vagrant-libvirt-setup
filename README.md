@@ -26,7 +26,7 @@ sudo dpkg -i vagrant_2.3.4_linux_amd64.deb
 
 
 
-##3. Instalar el Plugin de Vagrant para Libvirt
+## 3. Instalar el Plugin de Vagrant para Libvirt
 
 Instala las dependencias de desarrollo de Libvirt:
 
@@ -38,7 +38,7 @@ vagrant plugin install vagrant-libvirt
 
 
 
-##4. Configurar el Vagrantfile
+## 4. Configurar el Vagrantfile
 
 Crea un nuevo directorio para tu proyecto y configura el Vagrantfile:
 
@@ -65,14 +65,14 @@ Vagrant.configure("2") do |config|
 end
 
 
-##5. Iniciar la Máquina Virtual
+## 5. Iniciar la Máquina Virtual
 
 Levanta la máquina virtual con Libvirt:
 
 vagrant up --provider=libvirt
 
 
-##6. Verificar el Estado de la Máquina Virtual
+## 6. Verificar el Estado de la Máquina Virtual
 
 Verifica que la máquina esté en funcionamiento:
 
@@ -86,7 +86,7 @@ default                   running (libvirt)
 
 
 
-##7. Conectarse a la Máquina Virtual
+## 7. Conectarse a la Máquina Virtual
 
 Usa el comando vagrant ssh para conectarte a la máquina virtual:
 
@@ -94,7 +94,7 @@ vagrant ssh
 
 
 
-##8. Configurar SSH para VS Code
+## 8. Configurar SSH para VS Code
 
 Ejecuta el comando vagrant ssh-config para obtener los detalles de configuración SSH:
 
